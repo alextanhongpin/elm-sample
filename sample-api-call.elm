@@ -4,6 +4,7 @@ import Html.Events exposing (..)
 import Http
 import Json.Decode as Decode
 
+
 main = 
     Html.program 
         { init = init "cats"
